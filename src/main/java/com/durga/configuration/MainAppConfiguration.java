@@ -20,10 +20,7 @@ public class MainAppConfiguration {
         return new UserServiceImpl();
     }
 
-    /**
-     * Creating the UserDAO bean.
-     * @return {@link UserDAO}
-     */
+    
     @Bean
     public UserDAO getUserDAO() {
         return new UserDAOImpl();
